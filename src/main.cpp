@@ -12,8 +12,8 @@ void loop()
 {
   digitalWrite(LED_RED, HIGH);
   delay(500);
-  Serial.println(millis());
+  Serial.println("Led aan");
   digitalWrite(LED_RED, LOW); 
   delay(500);
-  Serial.println(millis());
+  Serial.println("Led uit");
 }
