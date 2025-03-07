@@ -2,8 +2,9 @@
 
 void setup() {
   Serial.begin(9600);
-  Serial.println("Hello World");
+  Serial.println("Dit is tekst...");
 }
 
 void loop() {
+  Serial.println("Dit blijft maar gaan...");
 }
